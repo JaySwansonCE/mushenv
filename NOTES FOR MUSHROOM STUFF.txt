@@ -1,0 +1,19 @@
+NOTES FOR MUSHROOM STUFF
+
+
+#Activate virtual environment
+	$source mushenv/bin/activate
+
+#Run Spider and export as csv
+	$scrapy runspider wikiScrape.py -o data1.csv -t csv
+
+#Run Spider and export as json
+	$scrapy runspider wikiScrape.py -o data1.json
+
+#Remove data from file
+	$rm data1.csv
+	$scrapy runspider wikiScrape.py -o data1.csv -t csv
+
+#Create a requirements.txt file that tracks downloaded software in an environment
+	$pip freeze > requirements.txt
+
