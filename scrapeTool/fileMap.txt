@@ -1,0 +1,6 @@
+-wikiScrape.py
+	Pulls list of genus types from wikipedia and exports the links to each genus
+-reverseCsv.py
+	Takes the list made by wikiScrape.py and reverses the order and concatinates the string into a full link
+-agaricusScrape.py
+	Takes the list made by reverseCsv.py and collects the species names and available information on each

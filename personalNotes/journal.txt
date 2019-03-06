@@ -1,0 +1,104 @@
+19_03_05
+
+Overall goal: Create a webapp that is a mycological taxonomy database
+
+Example of taxonomy (KDCOFGS):
+
+	Amanita Muscaria
+	Kingdom:	Fungi
+	Division:	Basidiomycota
+	Class:	Agaricomycetes
+	Order:	Agaricales
+	Family:	Amanitaceae
+	Genus:	Amanita
+	Species:	A. muscaria
+
+	Psilocybe cubensis
+	Kingdom:	Fungi
+	Division:	Basidiomycota
+	Class:	Agaricomycetes
+	Order:	Agaricales
+	Family:	Hymenogastraceae
+	Genus:	Psilocybe
+	Species:	P. cubensis
+
+
+	Things to use:
+		From iFit:
+		-Javascript
+		-PostgreSQL
+		-AWS Lambda
+		-React (WebViews)
+		-TypeScript
+		-API endpoints
+		-NoSQL databases (probably MongoDB)
+		-jQuery
+	
+		Personal things:
+		-Python
+		-Branch Git
+		-Node.js
+		-MongoDB
+
+	Definitions:
+		-Javascript: a high-level, interpreted programming language. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it, and major web browsers have a dedicated JavaScript engine to execute it.
+
+		-PostgreSQL: an open source object-relational database system.
+
+		-Object-Relational Database(ORD): a database management system (DBMS) similar to a relational database, but with an object-oriented database model: objects, classes and inheritance are directly supported in database schemas and in the query language. In addition, just as with pure relational systems, it supports extension of the data model with custom data-types and methods.
+
+		-AWS Lambda: AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running. Benefits include: No server management, continuous scaling and subsecond metering. Can be used to build a serverless solution.
+
+		-React (WebViews): Made by Facebook. React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Works with JS.
+
+		-TypeScript: an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing(lets the program know what type variables are before the script runs) to the language. TypeScript is designed for development of large applications and transcompiles to JavaScript. Compiles down to JavaScript. Superior to CoffeeScript and Dart. You could even run .js as .ts and it would run. Main programming language of Angular.
+
+		-Angular: Mainly programmed with TypeScript. It allows development across all platforms (native desktop, mobile, etc.)
+
+		-API: application programming interface (API) is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components. A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer.
+
+		-API endpoints: The part of the program that communicates between programs.
+
+		-NoSQL databases: stands for "not only SQL," is an alternative to traditional relational databases in which data is placed in tables and data schema is carefully designed before the database is built.
+
+		-jQuery: a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax(a set of web development techniques using many web technologies on the client side to create asynchronous web applications). It is the most widely deployed JavaScript library by a large margin.
+
+		-Python: an interpreted, high-level, general-purpose programming language. It features a dynamic type system and automatic memory management.
+
+		-Branch Git: a distributed version-control system for tracking changes in source code during software development. Using specific branches helps track changes better. So do it idiot.
+
+		-Node.js: JavaScript runtime environment that makes use of an event-driven, non-blocking I/O model thus making it lightweight and efficient. Node.JS package ecosystem is the largest ecosystem of open source libraries in the world. Node.JS is an open source server framework that makes use of JavaScript on Server and runs on various platforms like Windows, Linux, Mac OS X and Unix etc.
+
+		-DOM: Document Object Model
+
+		-MongoDB: a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata. MongoDB supports field, range query, and regular expression searches.
+
+
+	Strategy:
+		ALL WHILE USING GIT WITH BRANCHES!
+		Step 1: Use python to webscrape the information for each species of mushroom. Export a complete list in csv or json.
+		Step 2: Create the database using noSQL and PostgreSQL
+		Step ?: Use React to create a thoughtful UI
+
+
+
+		Step ?: Possibly make a data viz chart of the taxonomy.
+
+
+
+
+19_03_06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
