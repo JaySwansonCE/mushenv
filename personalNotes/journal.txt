@@ -89,8 +89,21 @@ Example of taxonomy (KDCOFGS):
 
 19_03_06
 
+I was able to get everything set up and organized on GitHub. I started my first branch feature which is trying to combine the three files I wrote. So far they are as follows:
+	-wikiScrape.py
+		Pulls list of genus types from wikipedia and exports the links to each genus
+	-reverseCsv.py
+		Takes the list made by wikiScrape.py and reverses the order and concatenates the string into a full link
+	-agaricusScrape.py
+		Takes the list made by reverseCsv.py and collects the species names and available information on each
+
+I want all three of these to run with one click or terminal line. I think it's a matter of figuring out how to run scrapy sequentially inside of one program. I'm just going to write a bash script to make it all run and spit out one csv file.
 
 
+19_03_07
+
+
+I'm going to finish up agaricusScrape.py and try to get more scraping done.
 
 
 
